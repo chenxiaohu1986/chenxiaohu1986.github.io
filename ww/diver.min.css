@@ -1,0 +1,536 @@
+.bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url("../images/bg1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: -1;
+	height:810px;
+}
+
+.diversion {
+	margin: auto
+}
+
+.navigator {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: none;
+	height: 80px;
+	background-color: #001029;
+	z-index: 1
+}
+
+.navigator .navigator-logo {
+	float: left;
+	margin-top: 15px;
+	width: 138px;
+	height: 50px;
+	background: url("../images/logo-2.png") no-repeat;
+	background-size: 100% 100%
+}
+
+.navigator .navigator-btn {
+	float: right;
+	position: relative;
+	display: block;
+	width: 226px;
+	line-height: 1;
+	border-radius: 56px;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.navigator .navigator-btn.type1 {
+	margin: 15px 44px 0 0;
+	padding: 17px 0 17px 62px;
+	background: -webkit-gradient(linear,left top,right top,from(#0083ff),to(#16d6ff));
+	background: linear-gradient(to right,#0083ff,#16d6ff)
+}
+
+.navigator .navigator-btn.type2 {
+	margin: 15px auto 0;
+	padding: 15px 0 15px 62px;
+	border: 2px solid #fff
+}
+
+.navigator .navigator-btn::before {
+	position: absolute;
+	content: "";
+	left: 35px;
+	top: 15px;
+	width: 18px;
+	height: 18px;
+	background: url("../images/icon01.png")/*tpa=http://duoduo125.com/images/icon01.png*/ no-repeat;
+	background-size: 100% 100%
+}
+
+.navigator::after {
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	visibility: hidden
+}
+
+.logo {
+	margin: 120px auto 0;
+	width: 100px;
+	height: 0px;
+	background: url("../images/logo.png") no-repeat;
+	background-size: 100% 100%
+}
+
+.diversion-title {
+	margin-top: 150px;
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	line-height: 1
+}
+
+.liner {
+	margin: 30px auto 50px;
+	width: 206px;
+	height: 16px;
+	background: url("../images/liner.png") no-repeat;
+	background-size: 100% 100%
+}
+
+.diversion-btn {
+	position: relative;
+	display: block;
+	width: 320px;
+	line-height: 1;
+	border-radius: 56px;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.diversion-btn.type1 {
+	margin: 0 auto 34px;
+	padding: 19px 0 19px 64px;
+	background: -webkit-gradient(linear,left top,right top,from(#0083ff),to(#16d6ff));
+	background: linear-gradient(to right,#0083ff,#16d6ff)
+}
+
+.diversion-btn.type2 {
+	margin: 0 auto 42px;
+	padding: 17px 0 17px 64px;
+	border: 2px solid #fff
+}
+
+.diversion-btn::before {
+	position: absolute;
+	content: "";
+	left: 35px;
+	top: 18px;
+	width: 20px;
+	height: 20px;
+	background: url("../images/icon01.png")/*tpa=http://duoduo125.com/images/icon01.png*/ no-repeat;
+	background-size: 100% 100%
+}
+
+.diversion-tips {
+	margin-bottom: 100px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 1
+}
+
+.panel {
+	padding: 118px 0 115px;
+	max-width: 1400px;
+	margin: auto;
+	background-color: #fff;
+	border-radius: 8px
+}
+
+.title {
+	font-size: 24px;
+	color: #061a3d;
+	text-align: center;
+	line-height: 1;
+	font-weight: 700
+}
+
+.title.mb30 {
+	margin-bottom: 30px
+}
+
+.main-pic {
+	margin: 70px auto 0;
+	width: 68.3%;
+	height: 0;
+	padding-bottom: 28.3%;
+	background: url("../images/pic01.png")/*tpa=http://duoduo125.com/images/pic01.png*/ no-repeat;
+	background-size: 100% 100%
+}
+
+.main-content {
+	position: relative;
+	margin: 150px auto 0;
+	max-width: 797px
+}
+
+.main-content p {
+	margin: 0 0 75px 0;
+	font-size: 16px;
+	line-height: 30px;
+	color: #737680;
+	letter-spacing: 3px
+}
+
+.main-content p.last {
+	margin: 0
+}
+
+.main-content::before {
+	position: absolute;
+	content: "";
+	left: -131px;
+	top: -86px;
+	width: 90px;
+	height: 63px;
+	background: url("../images/quotes-l.png")/*tpa=http://duoduo125.com/images/quotes-l.png*/ no-repeat;
+	background-size: 100% 100%
+}
+
+.main-content::after {
+	position: absolute;
+	content: "";
+	right: -132px;
+	bottom: -98px;
+	width: 90px;
+	height: 63px;
+	background: url("../images/quotes-r.png")/*tpa=http://duoduo125.com/images/quotes-r.png*/ no-repeat;
+	background-size: 100% 100%
+}
+
+.sub-title {
+	margin: 200px auto 0;
+	font-size: 24px;
+	color: #061a3d;
+	line-height: 1;
+	text-align: center;
+	font-weight: 700
+}
+
+.sub-pic {
+	margin: 70px auto 0;
+	width: 68.3%;
+	height: 0;
+	padding-bottom: 22%;
+	background: url("../images/pic02.png")/*tpa=http://duoduo125.com/images/pic02.png*/ no-repeat;
+	background-size: 100% 100%
+}
+
+
+@media only screen and (max-width:415px) {
+	.diversion {
+		width: 92%
+	}
+
+	.pc {
+		display: none
+	}
+
+	.h5 {
+		display: block
+	}
+
+	.navigator {
+		height: 60px
+	}
+
+	.navigator .navigator-logo {
+		display: none
+	}
+
+	.navigator .navigator-btn {
+		width: 135px;
+		line-height: 1;
+		border-radius: 34px;
+		font-size: 12px
+	}
+
+	.navigator .navigator-btn.type1 {
+		float: left;
+		margin: 13px 15px 0 0;
+		padding: 11px 0;
+		background: -webkit-gradient(linear,left top,right top,from(#0083ff),to(#16d6ff));
+		background: linear-gradient(to right,#0083ff,#16d6ff);
+		text-align: center
+	}
+
+	.navigator .navigator-btn.type2 {
+		float: right;
+		margin: 13px auto 0;
+		padding: 10px 0;
+		border: 1px solid #fff;
+		text-align: center
+	}
+
+	.navigator .navigator-btn::before {
+		display: none
+	}
+
+	.logo {
+		margin-top: 0px;
+		width: 65px;
+		height: 92px
+	}
+
+	.diversion-title {
+		margin-top: 30px;
+		font-size: 30px;
+		line-height: 45px
+	}
+
+	.liner {
+		margin: 36px auto 65px;
+		width: 103px;
+		height: 8px
+	}
+
+	.diversion-btn {
+		width: 240px;
+		border-radius: 43px;
+		font-size: 14px
+	}
+
+	.diversion-btn.type1 {
+		margin: 0 auto 18px;
+		padding: 14px 0 14px 43px
+	}
+
+	.diversion-btn.type2 {
+		margin: 0 auto 43px;
+		padding: 13px 0 13px 43px;
+		border: 1px solid #fff
+    }
+
+    .diversion-btn.type3 {
+		margin: 0 auto 18px;
+	}
+
+	.diversion-btn::before {
+		position: absolute;
+		content: "";
+		left: 22px;
+		top: 14px;
+		width: 15px;
+		height: 15px;
+		background: url("../images/icon01.png")/*tpa=http://duoduo125.com/images/icon01.png*/ no-repeat;
+		background-size: 100% 100%
+	}
+
+	.diversion-tips {
+		padding: 0 72px;
+		line-height: 24px;
+		margin-bottom: 22px;
+		font-size: 12px
+	}
+
+	.panel {
+		padding: 41px 0 75px;
+		border-radius: 6px
+	}
+
+	.title {
+		font-size: 24px;
+		line-height: 40px
+	}
+
+	.main-pic {
+		margin: 0;
+		width: 100%;
+		height: 0;
+		padding-bottom: 166%;
+		background: url("../images/pic01_h5.png")/*tpa=http://duoduo125.com/images/pic01_h5.png*/ no-repeat;
+		background-size: 100% 100%
+	}
+
+	.main-content {
+		margin: 0;
+		padding: 60px 23px 106px
+	}
+
+	.main-content p {
+		margin: 0 0 49px 0;
+		font-size: 13px;
+		line-height: 18px;
+		letter-spacing: 2px
+	}
+
+	.main-content p.last {
+		margin: 0
+	}
+
+	.main-content::before {
+		position: absolute;
+		content: "";
+		left: 10px;
+		top: 7px;
+		width: 45px;
+		height: 31px;
+		background: url("../images/quotes-l.png")/*tpa=http://duoduo125.com/images/quotes-l.png*/ no-repeat;
+		background-size: 100% 100%
+	}
+
+	.main-content::after {
+		position: absolute;
+		content: "";
+		right: 10px;
+		bottom: 51px;
+		width: 45px;
+		height: 31px;
+		background: url("../images/quotes-r.png")/*tpa=http://duoduo125.com/images/quotes-r.png*/ no-repeat;
+		background-size: 100% 100%
+	}
+
+	.sub-title {
+		margin: 0;
+		font-size: 24px;
+		line-height: 36px
+	}
+
+	.sub-pic {
+		margin: 30px auto 0;
+		width: 93%;
+		padding-bottom: 29.9%
+	}
+
+	.footer {
+		display: none;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.pc {
+		display: block
+	}
+
+	.h5 {
+		display: none
+	}
+}
+
+
+@media only screen and (min-width:415px) and (max-width:768px) {
+	.diversion {
+		width: 92%
+	}
+
+	.main-content::before {
+		left: 30px
+	}
+
+	.main-content::after {
+		right: 30px
+	}
+
+	.main-content p {
+		padding: 0 50px
+	}
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+	.diversion {
+		width: 92%
+	}
+
+	.main-content::before {
+		left: -40px
+	}
+
+	.main-content::after {
+		right: -40px
+	}
+}
+
+@media only screen and (min-width:1025px) and (max-width:1366px) {
+	.diversion {
+		width: 92%
+	}
+}
+
+@media only screen and (min-width:1367px) {
+	.diversion {
+		width: 1400px
+	}
+}
+@media only screen and (min-width:415px) and (max-width:768px) {
+	._3mZVSYl2DbUxlegGeogC3L, .k4Zg_k-yqsyVtMfE-f_fN {
+		width: 92%
+    }
+	.diversion-title {
+		margin-top: 450px
+        }
+	.bg {
+		height: 1500px
+        }
+	.diversion-tips {
+		margin-bottom: 610px
+}
+	._3mZVSYl2DbUxlegGeogC3L {
+		height: 500px
+}
+	.k4Zg_k-yqsyVtMfE-f_fN p {
+		margin-top: -260px
+}
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+	._3mZVSYl2DbUxlegGeogC3L, .k4Zg_k-yqsyVtMfE-f_fN {
+		width: 92%
+    }
+	.diversion-title {
+		margin-top: 450px
+        }
+	.bg {
+		height: 1500px
+        }
+	.diversion-tips {
+		margin-bottom: 610px
+}
+	._3mZVSYl2DbUxlegGeogC3L {
+		height: 500px
+}
+	.k4Zg_k-yqsyVtMfE-f_fN p {
+		margin-top: -260px
+}
+}
+@media only screen and (min-width:1025px) and (max-width:1366px) {
+	._3mZVSYl2DbUxlegGeogC3L,  .k4Zg_k-yqsyVtMfE-f_fN {
+		width: 92%
+    }
+	.diversion-title {
+		margin-top: 450px
+        }
+	.bg {
+		height: 1500px
+        }
+	.diversion-tips {
+		margin-bottom: 610px
+        }
+	._3mZVSYl2DbUxlegGeogC3L {
+		height: 500px
+        }
+	.k4Zg_k-yqsyVtMfE-f_fN p {
+		margin-top: -260px
+        }
+}
