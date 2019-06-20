@@ -1,0 +1,74 @@
+.topnav a:hover {
+     -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 2px 2px 20px #e56008;
+      opacity: 100%;
+}
+.topnav a{
+    color: #fff !important;
+}
+
+.bg-warning{
+  background-color:#0e0e0e !important;
+  text-align: center;
+}
+
+.navbar-collapse{
+  flex-grow:0 !important;
+}
+
+
+.navbar-nav li {
+  border: 1px solid #1A1A1A;
+  border-top-color: rgb(26, 26, 26);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-color: rgb(26, 26, 26);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom: none;
+  border-top: none;
+  margin: 0 auto !important;
+  width: 164px;
+  }
+
+  .navbar-nav b{
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .btn-orange{
+    background-color: #ff5a00;
+    border-radius: 230px !important;
+    width: 110px;
+    margin-top: 5px;
+
+  }
+
+  .btn-orange a{
+    color: #fff !important;
+  }
+
+  .active-tab{
+    background-image: url("../images/nav_icon.png")/*tpa=http://www.manspon22.com/images/nav_icon.png*/;
+    background-repeat: none !important;
+    max-width: 163px;
+    width: auto;
+  }
+
+
+.navbar-expand-lg{
+  justify-content: center !important;
+}
+
+.navbar{
+  padding-bottom: 0px;
+  padding-top:0px;
+}
+
+
+.btn{
+  margin-bottom: 2px !important;
+  margin: 0 auto;
+}
